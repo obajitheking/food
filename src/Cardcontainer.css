@@ -1,0 +1,537 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1.8rem;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2rem 1.8rem;
+    text-align: left;
+}
+
+.card-containerp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1.8rem;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2rem 1.8rem;
+    text-align: center;
+    
+}
+
+#ctf {
+    background-color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.heh1 {
+    margin-left: 100px;
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.heh2 {
+    margin-right: 175px;
+    color: white;
+    font-size: 22px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.pl {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+hr {
+    color: rgba(66, 66, 66, 1);
+    margin: 60px 30px;
+    opacity: 0.5;
+}
+
+.footer-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1.8rem;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 2rem 1.8rem;
+    text-align: center;
+    color: white;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1.5fr));
+    grid-gap: 6.8rem;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    
+}
+
+
+
+
+
+
+.shado {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.how-syn {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.hed {
+    margin-left: 275px;
+    margin-top: 25px;
+
+}
+
+.hed1 {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 55px;
+}
+
+.hed4 {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 55px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.card-name {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.card-name1 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.how-img {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.how-p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.btn-outlin {
+    background-color: #F44336;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn-outin {
+    background-color: rgba(255, 160, 0, 0.2);
+    color: rgba(244, 67, 54, 1);
+    font-weight: 900;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+
+}
+
+.item-syn {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.item-price {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 500;
+}
+
+.fea-card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.feah2 {
+    
+    background-color: white;
+    color: red;
+    padding: 16px 20px;
+    border: 1px solid red;
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 845px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.fa-greater-than {
+    color: red;
+}
+
+
+.card-container-search {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1.8rem;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2rem 1.8rem;
+    text-align: left;
+
+}
+
+.searchin {
+    background-color: #FFA000;
+    height: 550px;
+    padding-top: 170px;
+    color: white;
+}
+
+
+.real {
+    display: flex;
+
+}
+
+.he2 {
+    justify-self: start;
+    margin-left: 275px;
+}
+
+.he3 {
+    justify-self: end;
+    align-self: flex-end;
+}
+
+
+.see-img {
+    border-radius: 100%;
+  
+    
+}
+
+.search-name {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+
+.black {
+    background-image: url('../src/images/chicken1.jpg');
+}
+
+.blue {
+    background-image: url('../src/images/taco1.jpg');
+}
+
+.red {
+    background-image: url('../src/images/vege1.jpg');
+}
+
+#greg {
+    width: 1200px;
+    margin-left: 350px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.card-container-deal {
+    text-align: left;
+
+    
+}
+
+.deal-name {
+    background-color: rgba(255, 255, 255, 0.75);
+    max-width: 450px;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+.dealh1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 80px;
+    margin-bottom: 25px;
+}
+
+.dealp {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 25px;
+}
+
+
+.btn-deal-outlin {
+    background-color: #F44336;
+    color: white;
+    padding: 16px 20px;
+    margin-left:50px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    width: 370px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.btn-deal-outlin1 {
+    background-color: #F44336;
+    color: white;
+    padding: 16px 20px;
+
+   
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    width: 370px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 700px;
+}
+
+.slick-prev::before {
+    color: red important;
+    background-color: red;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
+}
+
+.slick-next::before {
+    color: red important;
+    background-color: red;
+   height: 35px;
+   width: 35px;
+   border-radius: 100%;
+
+}
+
+
+
+.slick-next {
+    margin-left: 80px;
+  }
+
+.card-container-footer {
+    background-image: url('../src/images/footer.jpg');
+    height: 500px;
+
+    margin-top: 90px;
+}
+
+.card-footer {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 500px;
+    text-align: left;
+
+}
+
+.footerh1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 150px;
+    color: white;
+    line-height: 75px;
+}
+
+.fh1 {
+    width: 500px;
+    margin-left: 700px;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+
+
+@media (max-width: 600px) {
+
+    .hed {
+        margin: 0;
+        margin-top: 50px;
+        padding-left: 50px;
+        
+    }
+
+    .card-container {
+        margin-left: 100px;
+   
+    }
+    .card-container-item {
+        margin-left: 25%;
+       
+    }
+
+    .slick-next {
+        margin-right: 40%;
+      }
+    .img2 {
+       
+    }
+
+    .btn-outlin {
+        
+    }
+    #greg {
+        width: 600px;
+        margin: 0px;
+        padding: 0;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        max-width: 100%;
+    }
+
+    .searchin {
+        display: none;
+    }
+
+    .card-footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .card-container-footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+        .footerh1 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            padding-top: 50px;
+            font-size: 40px;
+        }
+
+        .fh1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .btn-deal-outlin1 {
+            margin: 0;
+            margin-left: 10%;
+        
+        }
+
+        .feah3 {
+            max-width: 100%;
+        }
+
+        .feah2 {
+            
+            margin: 0;
+            margin-left: 175px;
+        }
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@media (max-width: 1000px) {
+    #greg {
+        width: 450px;
+        margin: 0px;
+        padding: 0;
+        margin-bottom: 50px;
+        margin-left: 25%;
+        margin-right: 25%;
+    
+    }
+
+    .slick-next {
+        margin-right: 40%;
+      }
+
+    .searchin {
+        display: none;
+    }
+
+    .footerh1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 40px;
+    }
+
+    .fh1 {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .btn-deal-outlin1 {
+        margin: 0;
+        margin-left: 10%;
+    
+    }
+    .things {
+        padding: 20%;
+    }
+
+    .card-container-item {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+        margin-left: 20%;
+        padding-left: 10%;
+       
+    }
+
+}
